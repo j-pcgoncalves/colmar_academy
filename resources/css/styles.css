@@ -755,4 +755,8 @@ hr {
   .now-and-then {
       display: none;
   }
+  
+  .guest-text p {
+    color: gray;
+  }
 }
