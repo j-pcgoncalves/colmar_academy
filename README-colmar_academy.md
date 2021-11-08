@@ -1,4 +1,4 @@
-# Frontend Mentor - Order summary card solution
+# Codecademy - Colmar Academy Final Project
 
 This is my take on the final project of the HTML and CSS Skill Path developed by [Codecademy](https://www.codecademy.com). 
 
@@ -23,7 +23,7 @@ Build the landing page of Colmar Academy.
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Colmar Academy](https://j-pcgoncalves.github.io/colmar_academy/)
 
 ## My process
 
