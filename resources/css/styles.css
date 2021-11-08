@@ -1,0 +1,756 @@
+body {
+  font-family: "Assistant", sans-serif;
+}
+
+p {
+  color: gray;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.nav-links ul {
+  display: inline-flex;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  margin-left: 16px;
+}
+
+#sign-in {
+  margin-right: 24px;
+}
+
+.company-logo {
+  margin-left: 24px;
+  height: 32px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo-text {
+  margin-left: 15px;
+  font-size: 32px;
+  color: gray;
+}
+
+#logo-text span {
+  color: black;
+  font-weight: bold;
+}
+
+#logo-icon {
+  transform: scale(1.9);
+}
+
+.header-nav-mobile {
+  display: none;
+}
+
+.banner-header {
+  display: flex;
+  background: lightgray;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+}
+
+.banner-header img {
+  width: 60%;
+  margin: 50px 36px;
+}
+
+.banner-text {
+  margin-left: 40px;
+}
+
+.banner-text h1 {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.banner-text #lorem {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: -20px;
+  color: black;
+}
+
+#button {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+#button p {
+  color: white;
+}
+
+.academy-information {
+  margin-top: 55%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 0em;
+}
+
+.testimonial {
+  grid-column: 1 / 2;
+  grid-row: 1 / span 3;
+  margin-left: 30px;
+}
+
+.testimonial img {
+  width: 100%;
+}
+
+.testimonial h2 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.testimonial p {
+  font-size: 21px;
+}
+
+#testimonial-name {
+  transform: translateY(1.3em);
+  color: black;
+}
+
+.orientation {
+ grid-column: 2 / 3;
+ grid-row: 1 / 2;
+ display: flex;
+ align-items: center;
+ margin-top: -4em;
+ margin-bottom: 3em;
+ margin-left: 60px; 
+ border: 1px solid lightgray;
+}
+
+.orientation img {
+  height: 10em;
+  width: 25%;
+  margin-left: 20px;
+  margin-bottom: -2.5em;
+}
+
+.orientation-text {
+  margin-left: 30px;
+  margin-top: 2em;
+}
+
+.orientation-text h2 {
+  font-size: 30px;
+}
+
+.orientation-text p {
+  font-size: 20px;
+}
+
+.orientation-text a {
+  text-decoration: none;
+  color: blue;
+}
+
+.date-time {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  display: flex;
+  align-items: center;
+  margin-top: -2.7em;
+  margin-left: 60px;
+  margin-bottom: 2.5em;
+  border: solid 1px lightgray;
+}
+   
+.date-time img {
+  height: 11.5em;
+  width: 25.5%;
+  margin-left: 20px;
+  margin-bottom: -2.5em;
+  margin-top: -2.5em;
+}
+   
+.date-time-text {
+  margin-left: 30px;
+}
+   
+.date-time-text h2 {
+  font-size: 30px;
+}
+   
+.date-time-text p {
+  font-size: 20px;
+}
+   
+.date-time-text a {
+  text-decoration: none;
+  color: blue;
+}
+
+.guest {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  display: flex;
+  align-items: center;
+  margin-top: -6em;
+  background-color: lightgray;
+  margin-top: -40px;
+  margin-left: 60px;
+}
+     
+.guest img {
+  height: 12em;
+  width: 26%;
+  margin-left: 20px;
+  margin-bottom: -1em;
+}
+     
+.guest-text {
+  margin-left: 30px;
+}
+     
+.guest-text h2 {
+  font-size: 30px;
+}
+     
+.guest-text p {
+  font-size: 20px;
+  color: black;
+}
+     
+.guest-text a {
+  text-decoration: none;
+  color: blue;
+}
+
+.learning-courses {
+  background-color: lightgray;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  margin-top: 5em;
+}
+
+#course-title {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1.2em;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.software-engineering {
+  margin-left: 7em;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  background-color: white;
+  padding-bottom: 1.5em;
+  height: 26em;
+}
+
+.software-engineering img {
+  width: 25em;
+}
+
+.software-engineering h2 {
+  margin-left: 1.5em;
+  font-size: 30px;
+}
+
+.software-engineering p {
+  margin-left: 2.3em;
+  font-size: 20px;
+}
+
+.computer-art {
+  margin-left: 2.5em;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  background-color: white;
+  padding-bottom: 1.5em;
+  margin-right: 2.5em;
+  height: 26em;
+}
+  
+.computer-art img {
+  width: 27em;
+  height: 12.8em;
+}
+  
+.computer-art h2 {
+  margin-left: 1.5em;
+  font-size: 30px;
+}
+  
+.computer-art p {
+  margin-left: 2.3em;
+  font-size: 20px;
+}
+
+.design {
+  margin-left: 0em;
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  background-color: white;
+  padding-bottom: 1.5em;
+  margin-right: 7em;
+  height: 26em;
+}
+    
+.design img {
+  width: 25em;
+  height: 12.8em;
+}
+    
+.design h2 {
+  margin-left: 1.5em;
+  font-size: 30px;
+}
+    
+.design p {
+  margin-left: 2.3em;
+  font-size: 20px;
+}
+
+.data {
+  margin-left: 7em;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  background-color: white;
+  padding-bottom: 1.5em;
+  margin-top: -1.5em;
+  margin-bottom: 5em; 
+}
+      
+.data img {
+  width: 25em;
+  height: 12.8em;
+}
+
+.data h2 {
+  margin-left: 1.5em;
+  font-size: 30px;
+}
+      
+.data p {
+  margin-left: 2.3em;
+  font-size: 20px;
+}
+
+.business {
+  margin-left: 2.4em;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background-color: white;
+  padding-bottom: 1.5em;
+  margin-top: -1.5em;
+  height: 26em;
+  margin-right: 2.5em;
+}
+  
+.business img {
+  width: 27.1em;
+  height: 12.8em;
+}
+  
+.business h2 {
+  margin-left: 1.5em;
+  font-size: 30px;
+}
+  
+.business p {
+  margin-left: 2.3em;
+  font-size: 20px;
+}
+
+.marketing {
+  margin-left: 0em;
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  background-color: white;
+  padding-bottom: 1.5em;
+  margin-right: 7em;
+  height: 26em;
+  margin-top: -1.5em;
+}
+      
+.marketing img {
+  width: 25em;
+  height: 12.8em;
+}
+      
+.marketing h2 {
+  margin-left: 1.5em;
+  font-size: 30px;
+}
+      
+.marketing p {
+  margin-left: 2.3em;
+  font-size: 20px;
+}
+
+#thesis-title {
+  margin-top: 27em;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.thesis-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.thesis-video-container {
+  grid-column: 1 / 2;
+  grid-row: 1 / span 3;
+  margin-left: 1.5em;
+  width: 52.6em;
+  margin-top: 1.5em;
+}
+
+#video {
+  width: 100%;
+}
+
+.thesis-video-container p {
+  font-size: 1.4em;
+}
+
+.thesis-video-container h2 {
+  font-size: 1.9em;
+}
+
+.fisma-design {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+  margin-left: 2em;
+  margin-top: 1.5em;
+  height: 15em;
+}
+
+.fisma-design img {
+  transform: scale(0.7);
+  margin-left: -1em;
+}
+
+.fisma-design-text h2 {
+  font-size: 30px;
+}
+
+.fisma-design-text p {
+  color: black;
+  font-size: 20px;
+}
+
+.now-and-then {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+  margin-top: -1.5em;
+}
+
+.now-and-then img {
+  transform: scale(0.7);
+}
+
+.now-and-then-text h2 {
+  font-size: 30px;
+}
+
+.now-and-then-text p {
+  font-size: 20px; 
+}
+
+.now-and-then-text {
+  line-height: 0.6;
+}
+
+hr {
+  color: lightgray;
+  opacity: 0.3;
+  margin-top: -4em;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0em;
+  margin-bottom: 2em;
+}
+
+.footer-nav p {
+  margin-left: 1.5em;
+}
+
+.footer-nav-links {
+  list-style: none;
+  display: inline-flex;
+  text-decoration: none;
+  color: lightgray;
+}
+
+.footer-nav-links a {
+  margin-right: 1em;
+  text-decoration: none;
+  color: gray;
+}
+
+.courses-mobile {
+  display: none;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .company-logo {
+    display: none;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .header-nav-mobile {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .header-nav-mobile img {
+    transform: scale(1.4);
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+
+  .banner-header {
+    flex-direction: column;
+  }
+
+  .banner-header img {
+    position: absolute;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .banner-text {
+    margin-top: 19em;
+    margin-left: 0.5em;
+  }
+
+  .banner-text h1 {
+    font-size: 3em;
+  }
+
+  .banner-text #lorem {
+    font-size: 1.8em;
+  }
+
+  #button {
+    margin-bottom: 2em;
+  }
+
+  .testimonial {
+    display: none;
+  }
+
+  .orientation {
+    grid-column: 1 / span 2;
+    grid-row: 1 / 2;
+    flex-direction: column;
+    margin-top: 32em;
+    border: none;
+  }
+
+  .orientation img {
+    width: 23em;
+    height: 15em;
+    margin-left: -4em;
+    margin-right: -1em;
+  }
+
+  .orientation-text {
+    margin-left: -5em;
+  }
+
+  .date-time {
+    grid-column: 1 / span 2;
+    grid-row: 2 / 3;
+    flex-direction: column;
+    margin-top: 0em;
+    border: none;
+  }
+
+  .date-time img {
+    width: 23em;
+    height: 15em;
+    margin-left: -4em;
+    margin-right: -1em;
+  }
+
+  .date-time-text {
+    margin-left: -5em;
+    margin-top: 2em;
+  }
+
+  .guest {
+    grid-column: 1 / span 2;
+    grid-row: 3 / 4;
+    flex-direction: column;
+    margin-top: -37em;
+    border: none;
+    background-color: white;
+  }
+
+  .guest img {
+    width: 23em;
+    height: 15em;
+    margin-left: -4em;
+    margin-right: -1em;
+  }
+
+  .guest-text {
+    margin-left: -5em;
+    margin-top: 2em;
+  }
+
+  .learning-courses {
+    display: none;
+  }
+
+  .courses-mobile {
+    display: flex;
+    flex-direction: column;
+    margin-top: -65em;
+    border-top: solid 1px lightgray;
+    border-bottom: solid 1px lightgray;
+  }
+
+  .software-button {
+    background-color: lightgray;
+    margin-left: 1em;
+    padding-left: 1.2em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+  }
+
+  .art-button {
+    background-color: lightgray;
+    margin-left: 1em;
+    padding-left: 1.2em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin-top: 0.5em;
+  }
+
+  .design-button {
+    background-color: lightgray;
+    margin-left: 1em;
+    padding-left: 1.2em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin-top: 0.5em;
+  }
+
+  .data-button {
+    background-color: lightgray;
+    margin-left: 1em;
+    padding-left: 1.2em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin-top: 0.5em;
+  }
+
+  .business-button {
+    background-color: lightgray;
+    margin-left: 1em;
+    padding-left: 1.2em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin-top: 0.5em;
+  }
+
+  .marketing-button {
+    background-color: lightgray;
+    margin-left: 1em;
+    padding-left: 1.2em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin-top: 0.5em;
+    margin-bottom: 2.7em;
+  }
+
+  .thesis {
+    margin-top: -78em;
+  }
+
+  #thesis-title {
+    margin-bottom: 0.5em;
+  }
+
+  .thesis-video-container {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 3;
+    width: 100%;
+    position: absolute;
+    left: -24px;
+    top: 190em;
+  }
+
+  .thesis-video-container h2 {
+    display: none;
+  }
+
+  .thesis-video-container p {
+    display: none;
+  }
+
+  #mobile-hidden {
+    display: none;
+  }
+
+  .footer-nav {
+    margin-top: 18em;
+    margin-bottom: -1em;
+  }
+
+  .footer-nav-links {
+    display: none;
+  }
+
+  .fisma-design {
+    display: none;
+  }
+
+  .now-and-then {
+      display: none;
+  }
+
+
+}
