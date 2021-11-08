@@ -640,6 +640,10 @@ hr {
     margin-left: -5em;
     margin-top: 2em;
   }
+  
+  .guest-text p {
+    color: gray;
+  }
 
   .learning-courses {
     display: none;
@@ -754,9 +758,5 @@ hr {
 
   .now-and-then {
       display: none;
-  }
-  
-  .guest-text p {
-    color: gray;
   }
 }
