@@ -528,7 +528,7 @@ hr {
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 720px) {
   .company-logo {
     display: none;
   }
